@@ -5,9 +5,16 @@
       "blocks": {
         "vendor": {
           "type": "text",
-          "settings": { "text": "{{ product.vendor }}", "text_style": "body" }
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "body"
+          }
         },
-        "title": { "type": "title", "settings": {} },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
         "caption": {
           "type": "text",
           "settings": {
@@ -15,32 +22,65 @@
             "text_style": "subtitle"
           }
         },
-        "product-rating": { "type": "rating", "settings": {} },
-        "price": { "type": "price", "settings": {} },
-        "share": { "type": "share", "settings": { "share_label": "Share" } },
+        "product-rating": {
+          "type": "rating",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
-          "settings": { "picker_type": "dropdown" }
+          "settings": {
+            "picker_type": "dropdown"
+          }
         },
         "ccf73577-b00f-4745-b977-a8c9fea12b6c": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div class=\"center\">\n<script>\nfunction goToMetamask() {\nif (window.ethereum) {\nwindow.ethereum.request({method: 'eth_requestAccounts'}).then(result => {\naccountChangedHandler(result[0]);})\n} else {\nsetErrorMessage('Install MetaMask');\n}}\n</script>\n<div class=\"button\" onclick=\"goToMetamask()\">Purchase NFT</div>\n</div>"
+            "custom_liquid": "<div class=\"center\">\n<script>\nfunction goToMetamask() {\nif (window.ethereum) {\nwindow.ethereum.request({method: 'eth_requestAccounts'}).then(result => {\naccountChangedHandler(result[0]);})\n} else {\nsetErrorMessage('Install MetaMask');\n}}\n<\/script>\n<div class=\"button\" onclick=\"goToMetamask()\">Purchase NFT<\/div>\n<\/div>"
           }
         },
         "buy_buttons": {
           "type": "buy_buttons",
           "disabled": true,
-          "settings": { "show_dynamic_checkout": true }
+          "settings": {
+            "show_dynamic_checkout": true
+          }
         },
-        "description": { "type": "description", "settings": {} },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
         "popup": {
           "type": "popup",
-          "settings": { "text": "Size chart", "page": "" }
+          "settings": {
+            "text": "Size chart",
+            "page": ""
+          }
         },
         "7cc45a61-4a20-4724-b710-8fe9e0cc8a9f": {
           "type": "text",
-          "settings": { "text": "Text block", "text_style": "body" }
+          "settings": {
+            "text": "Text block",
+            "text_style": "body"
+          }
+        },
+        "914da600-ad98-4b2c-af2c-541c8cfe0616": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"center\">\n<div class=\"button\" onclick=\"goToMetamask()\">Purchase NFT<\/div>\n<\/div>"
+          }
         }
       },
       "block_order": [
@@ -55,7 +95,8 @@
         "buy_buttons",
         "description",
         "popup",
-        "7cc45a61-4a20-4724-b710-8fe9e0cc8a9f"
+        "7cc45a61-4a20-4724-b710-8fe9e0cc8a9f",
+        "914da600-ad98-4b2c-af2c-541c8cfe0616"
       ],
       "settings": {
         "enable_sticky_info": false,
@@ -82,10 +123,18 @@
         },
         "column-2": {
           "type": "column",
-          "settings": { "title": "", "text": "", "link_label": "", "link": "" }
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
-      "block_order": ["column-1", "column-2"],
+      "block_order": [
+        "column-1",
+        "column-2"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -143,7 +192,12 @@
           }
         }
       },
-      "block_order": ["column-1", "column-2", "column-3", "column-4"],
+      "block_order": [
+        "column-1",
+        "column-2",
+        "column-3",
+        "column-4"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -166,22 +220,47 @@
       "blocks": {
         "column-1": {
           "type": "column",
-          "settings": { "title": "", "text": "", "link_label": "", "link": "" }
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
         },
         "column-2": {
           "type": "column",
-          "settings": { "title": "", "text": "", "link_label": "", "link": "" }
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
         },
         "column-3": {
           "type": "column",
-          "settings": { "title": "", "text": "", "link_label": "", "link": "" }
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
         },
         "column-4": {
           "type": "column",
-          "settings": { "title": "", "text": "", "link_label": "", "link": "" }
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
-      "block_order": ["column-1", "column-2", "column-3", "column-4"],
+      "block_order": [
+        "column-1",
+        "column-2",
+        "column-3",
+        "column-4"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -230,10 +309,18 @@
         },
         "column-2": {
           "type": "column",
-          "settings": { "title": "", "text": "", "link_label": "", "link": "" }
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
-      "block_order": ["column-1", "column-2"],
+      "block_order": [
+        "column-1",
+        "column-2"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h2",
@@ -273,7 +360,10 @@
           }
         }
       },
-      "block_order": ["column-1", "column-2"],
+      "block_order": [
+        "column-1",
+        "column-2"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -296,15 +386,28 @@
       "blocks": {
         "heading": {
           "type": "heading",
-          "settings": { "heading": "Stay in the know", "heading_size": "h2" }
+          "settings": {
+            "heading": "Stay in the know",
+            "heading_size": "h2"
+          }
         },
-        "email-form": { "type": "email_form", "settings": {} },
+        "email-form": {
+          "type": "email_form",
+          "settings": {
+          }
+        },
         "paragraph": {
           "type": "paragraph",
-          "settings": { "text": "<p>Follow us on social media</p>" }
+          "settings": {
+            "text": "<p>Follow us on social media<\/p>"
+          }
         }
       },
-      "block_order": ["heading", "email-form", "paragraph"],
+      "block_order": [
+        "heading",
+        "email-form",
+        "paragraph"
+      ],
       "settings": {
         "color_scheme": "accent-1",
         "full_width": true,
