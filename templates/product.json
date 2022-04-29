@@ -64,6 +64,7 @@
         },
         "popup": {
           "type": "popup",
+          "disabled": true,
           "settings": {
             "text": "Size chart",
             "page": ""
@@ -78,6 +79,7 @@
         },
         "914da600-ad98-4b2c-af2c-541c8cfe0616": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<div class=\"center\">\n<div class=\"button\" onclick=\"goToMetamask()\">Purchase NFT<\/div>\n<\/div>"
           }
