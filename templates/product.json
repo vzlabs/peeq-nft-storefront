@@ -72,6 +72,7 @@
         },
         "7cc45a61-4a20-4724-b710-8fe9e0cc8a9f": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Text block",
             "text_style": "body"
