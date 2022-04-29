@@ -48,6 +48,7 @@
         "image-3": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/120b59b8-af1c-4873-9b25-e13693d6a35b.jpg",
             "image_padding": false
           }
         }
